@@ -6,9 +6,9 @@ import {FaFish} from 'react-icons/fa';
 import Typewriter from 'typewriter-effect';
 
 
-const About = () => {
+const About = ({ navRef }) => {
   return (
-    <section id='about'>
+    <section id='about' ref={navRef}>
       <h5>Get To Know</h5>
       <h2>
         <Typewriter

@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com'
 import Typewriter from 'typewriter-effect';
 
 
-const Contact = () => {
+const Contact = ({navRef}) => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <section id='contact' ref={navRef}>
       <h5>Get In Touch</h5>
       <h2>
         <Typewriter

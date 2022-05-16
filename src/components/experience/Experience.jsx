@@ -9,9 +9,9 @@ import {IoLogoCss3} from 'react-icons/io';
 
 
 
-const Experience = () => {
+const Experience = ({ navRef }) => {
   return (
-    <section id='experience'>
+    <section id='experience' ref={navRef}>
       <h5>What Skills I Have</h5>
       <h2>
         <Typewriter

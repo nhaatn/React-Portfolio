@@ -61,10 +61,10 @@ const data = [
   },
 ]
 
-const Portfolio = () => {
+const Portfolio = ({navRef}) => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      <h5 ref={navRef}>My Recent Work</h5>
       <h2>
         <Typewriter
           options={{

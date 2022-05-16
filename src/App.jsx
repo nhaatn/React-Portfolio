@@ -8,15 +8,21 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 
+
 const App = () => {
+  const topRef = React.useRef(null);
+  const aboutRef = React.useRef(null);
+  const experienceRef = React.useRef(null);
+  const portfolioRef = React.useRef(null);
+  const contactRef = React.useRef(null);
   return (
     <>
       <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
+      <Nav top={topRef} about={aboutRef} experience={experienceRef} portfolio={portfolioRef} contact={contactRef}/>
+      <About navRef={aboutRef} />
+      <Experience navRef={experienceRef} />
+      <Portfolio navRef={portfolioRef} />
+      <Contact navRef={contactRef} />
       <Footer />
     </>
   )
