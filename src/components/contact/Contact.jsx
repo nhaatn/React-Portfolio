@@ -12,7 +12,12 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_dm0edus', 'template_k1nvah5', form.current, 'C3toJ4__Oq_Bj94lW')
-    
+    .then(() => {
+      alert(`Your message has been sent! Nhat will get in touch with you shortly. Thank you.`);
+    }, (error) => {
+        console.log(error.text);
+    });
+
     e.target.reset();
   };
 

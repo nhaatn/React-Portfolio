@@ -1,11 +1,13 @@
 import React from 'react';
 import './experience.css';
 import Typewriter from 'typewriter-effect';
-import {FaSass, FaReact, FaNodeJs, FaHtml5} from 'react-icons/fa';
+import {FaSass, FaReact, FaNodeJs, FaHtml5, FaElementor} from 'react-icons/fa';
 import {SiJavascript, SiPhp} from 'react-icons/si';
-import {SiBootstrap, SiMongodb} from 'react-icons/si';
+import {SiBootstrap, SiMongodb, SiFirebase, SiFigma, SiAdobexd, SiGimp} from 'react-icons/si';
 import {GrMysql} from 'react-icons/gr';
 import {IoLogoCss3} from 'react-icons/io';
+import {BsWordpress, BsGithub} from 'react-icons/bs';
+import {BiGitMerge} from 'react-icons/bi';
 
 
 
@@ -104,9 +106,77 @@ const Experience = () => {
                 <h4>MySQL</h4>
               </div>
             </article>
+
+            <article className='experience__details'>
+              <SiFirebase className='experience__details-icon' />
+              <div>
+                <h4>Firebase</h4>
+              </div>
+            </article>
           </div>
         </div>
         {/* ===== END OF BACKEND ===== */}
+
+        <div className="experience__backend">
+          <h3>CMS / VCS</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsWordpress className='experience__details-icon' />
+              <div>
+                <h4>WordPress</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <FaElementor className='experience__details-icon' />
+              <div>
+                <h4>Elementor</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BiGitMerge className='experience__details-icon' />
+              <div>
+                <h4>Git</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsGithub className='experience__details-icon' />
+              <div>
+                <h4>GitHub</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END OF CMS / VCS */}
+
+        <div className="experience__backend">
+          <h3>Design</h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <SiFigma className='experience__details-icon' />
+              <div>
+                <h4>Figma</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <SiAdobexd className='experience__details-icon' />
+              <div>
+                <h4>AdobeXD</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <SiGimp className='experience__details-icon' />
+              <div>
+                <h4>Gimp</h4>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END OF DESIGN */}
       </div>
     </section>
   )

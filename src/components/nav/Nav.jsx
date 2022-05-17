@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import './nav.css';
 
@@ -10,13 +10,13 @@ import {BiMessageDetail} from 'react-icons/bi';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#top');
-  const [scroll, setScroll] = useState(false);
+  // const [scroll, setScroll] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setScroll(window.scrollY > 100);
-    });
-  }, []); 
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     setScroll(window.scrollY > 100);
+  //   });
+  // }, []); 
 
   // const scrollEffect = () => {
   //   if(window.scrollY >= 100) {
@@ -31,11 +31,45 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#top" onClick={() => setActiveNav('#top')} className={activeNav === '#top' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BsCodeSlash /></a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><BsBook /></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail /></a>
+      <a 
+        href="#top" 
+        onClick={() => setActiveNav('#top')} 
+        className={activeNav === '#top' ? 'active' : ''}
+      >
+        <AiOutlineHome />
+      </a>
+
+      <a 
+        href="#about" 
+        onClick={() => setActiveNav('#about')} 
+        className={activeNav === '#about' ? 'active' : ''}
+      >
+        <AiOutlineUser />
+      </a>
+
+      <a 
+        href="#experience" 
+        onClick={() => setActiveNav('#experience')} 
+        className={activeNav === '#experience' ? 'active' : ''}
+      >
+        <BsCodeSlash />
+      </a>
+
+      <a 
+        href="#portfolio" 
+        onClick={() => setActiveNav('#portfolio')} 
+        className={activeNav === '#portfolio' ? 'active' : ''}
+      >
+        <BsBook />
+      </a>
+
+      <a 
+        href="#contact" 
+        onClick={() => setActiveNav('#contact')} 
+        className={activeNav === '#contact' ? 'active' : ''}
+      >
+        <BiMessageDetail />  
+      </a>
     </nav>
   )
 }

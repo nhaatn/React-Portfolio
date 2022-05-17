@@ -86,7 +86,10 @@ const Portfolio = () => {
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
-                <h5 className="text-light">{techStack}</h5>
+                <span className='tech__stack'>Tech Stack:</span>
+                <h5 className="text-light">
+                  {techStack}
+                </h5>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn'target="_blank" rel="noreferrer">Github</a>
                   <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>

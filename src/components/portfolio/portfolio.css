@@ -4,10 +4,14 @@
   gap: 2rem;
 }
 
+.tech__stack {
+  color: var(--color-primary);
+}
+
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
-  border-radius: 2rem;
+  border-radius: 1.2rem;
   border: 1px solid transparent;
   transition: var(--transition);
 
