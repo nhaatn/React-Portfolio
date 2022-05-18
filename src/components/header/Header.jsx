@@ -3,9 +3,10 @@ import './header.css';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 
+
 const Header = () => {
   return (
-    <header>
+    <header id='top'>
       <div className="container header__container">
         <h5>Hello, I'm</h5>
         <h1>Nhat Nguyen</h1>

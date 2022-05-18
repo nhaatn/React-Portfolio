@@ -1,77 +1,82 @@
-import React from 'react';
-import { useState } from 'react';
+import React from "react";
+import { Link } from "react-scroll/modules";
 
-import './nav.css';
+import "./nav.css";
 
-import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai';
-import {BsBook, BsCodeSlash} from 'react-icons/bs';
-import {BiMessageDetail} from 'react-icons/bi';
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { BsBook, BsCodeSlash } from "react-icons/bs";
+import { BiMessageDetail } from "react-icons/bi";
 
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#top');
-  // const [scroll, setScroll] = useState(false);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     setScroll(window.scrollY > 100);
-  //   });
-  // }, []); 
-
-  // const scrollEffect = () => {
-  //   if(window.scrollY >= 100) {
-  //     setScroll(true)
-  //   } else {
-  //     setScroll(false)
-  //   }
-  // }
-
-  // window.addEventListener('scroll', scrollEffect);
-  // activeNav === '#about'
+  // const [activeNav, setActiveNav] = useState();
+  /* <a 
+    href="#top" 
+    onClick={() => setActiveNav('#top')} 
+    className={activeNav === '#top' ? 'active' : ''}
+  >
+    <AiOutlineHome />
+  </a>
+    */
 
   return (
     <nav>
-      <a 
-        href="#top" 
-        onClick={() => setActiveNav('#top')} 
-        className={activeNav === '#top' ? 'active' : ''}
+      {/* HOME */}
+      <Link
+        to="top"
+        spy={true}
+        activeClass="active"
+        smooth={true}
+        duration={10}
       >
         <AiOutlineHome />
-      </a>
+      </Link>
 
-      <a 
-        href="#about" 
-        onClick={() => setActiveNav('#about')} 
-        className={activeNav === '#about' ? 'active' : ''}
+      {/* ABOUT */}
+      <Link
+        to="about"
+        spy={true}
+        activeClass="active"
+        smooth={true}
+        duration={10}
       >
         <AiOutlineUser />
-      </a>
+      </Link>
 
-      <a 
-        href="#experience" 
-        onClick={() => setActiveNav('#experience')} 
-        className={activeNav === '#experience' ? 'active' : ''}
+      {/* EXPERIENCE */}
+      <Link
+        to="experience"
+        spy={true}
+        activeClass="active"
+        smooth={true}
+        duration={10}
       >
         <BsCodeSlash />
-      </a>
+      </Link>
 
-      <a 
-        href="#portfolio" 
-        onClick={() => setActiveNav('#portfolio')} 
-        className={activeNav === '#portfolio' ? 'active' : ''}
+      {/* PORTFOLIO */}
+      <Link
+        to="portfolio"
+        spy={true}
+        activeClass="active"
+        smooth={true}
+        duration={10}
       >
         <BsBook />
-      </a>
+      </Link>
 
-      <a 
-        href="#contact" 
-        onClick={() => setActiveNav('#contact')} 
-        className={activeNav === '#contact' ? 'active' : ''}
+      {/* CONTACT */}
+      <Link
+        to="contact"
+        spy={true}
+        activeClass="active"
+        smooth={true}
+        duration={10}
       >
-        <BiMessageDetail />  
-      </a>
+        <BiMessageDetail />
+      </Link>
     </nav>
-  )
-}
+  );
+};
 
-export default Nav
+export default Nav;
