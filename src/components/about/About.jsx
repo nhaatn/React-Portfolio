@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium perspiciatis, tempore magni ipsam, alias dolore omnis rem ratione sed recusandae delectus tenetur! Illum tenetur, distinctio eligendi laborum iste voluptate totam delectus. Dolorem repellat quo tenetur dolor similique aliquid nostrum libero aperiam, odio quisquam reprehenderit et culpa? Aperiam, nisi amet.
+            I have recently graduated from the Web Development program at SAIT, through which I developed strong skills in data analysis and problem-solving. I am dedicated to perfecting my projects and have strong knowledge of UI/UX principles. I strive to design and build quality, intuitive, and robust websites with the goal of learning and improving my skills. Aside from coding, I enjoy playing basketball, video games, and the guitar.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
