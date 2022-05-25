@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/www.nhaatn.com/static/css/main.c0305be4.css",
-    "main.js": "/www.nhaatn.com/static/js/main.886609db.js",
-    "static/media/netflix-clone.jpg": "/www.nhaatn.com/static/media/netflix-clone.8aaf0b1da5916c08087a.jpg",
-    "static/media/portfolio-hero.jpg": "/www.nhaatn.com/static/media/portfolio-hero.444040329ef3fad1cf84.jpg",
-    "static/media/simt.jpg": "/www.nhaatn.com/static/media/simt.70656685ca58d7bd4e58.jpg",
-    "static/media/bg-texture.png": "/www.nhaatn.com/static/media/bg-texture.8a1abc775dec4ce9e1d1.png",
-    "index.html": "/www.nhaatn.com/index.html",
-    "main.c0305be4.css.map": "/www.nhaatn.com/static/css/main.c0305be4.css.map",
-    "main.886609db.js.map": "/www.nhaatn.com/static/js/main.886609db.js.map"
+    "main.css": "/static/css/main.2ab85696.css",
+    "main.js": "/static/js/main.71a77f30.js",
+    "static/media/netflix-clone.jpg": "/static/media/netflix-clone.8aaf0b1da5916c08087a.jpg",
+    "static/media/portfolio-hero.jpg": "/static/media/portfolio-hero.444040329ef3fad1cf84.jpg",
+    "static/media/simt.jpg": "/static/media/simt.70656685ca58d7bd4e58.jpg",
+    "static/media/bg-texture.png": "/static/media/bg-texture.8a1abc775dec4ce9e1d1.png",
+    "index.html": "/index.html",
+    "main.2ab85696.css.map": "/static/css/main.2ab85696.css.map",
+    "main.71a77f30.js.map": "/static/js/main.71a77f30.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0305be4.css",
-    "static/js/main.886609db.js"
+    "static/css/main.2ab85696.css",
+    "static/js/main.71a77f30.js"
   ]
 }
