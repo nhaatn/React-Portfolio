@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.30339ea5.css",
-    "main.js": "/React-Portfolio/static/js/main.924a57e6.js",
+    "main.js": "/React-Portfolio/static/js/main.0b125748.js",
     "static/media/netflix-clone.jpg": "/React-Portfolio/static/media/netflix-clone.8aaf0b1da5916c08087a.jpg",
+    "static/media/portfolio-hero.jpg": "/React-Portfolio/static/media/portfolio-hero.444040329ef3fad1cf84.jpg",
     "static/media/simt.jpg": "/React-Portfolio/static/media/simt.70656685ca58d7bd4e58.jpg",
-    "static/media/portfolio-hero.jpg": "/React-Portfolio/static/media/portfolio-hero.1cfa270b8f30ec35fbbe.jpg",
     "static/media/bg-texture.png": "/React-Portfolio/static/media/bg-texture.8a1abc775dec4ce9e1d1.png",
     "index.html": "/React-Portfolio/index.html",
     "main.30339ea5.css.map": "/React-Portfolio/static/css/main.30339ea5.css.map",
-    "main.924a57e6.js.map": "/React-Portfolio/static/js/main.924a57e6.js.map"
+    "main.0b125748.js.map": "/React-Portfolio/static/js/main.0b125748.js.map"
   },
   "entrypoints": [
     "static/css/main.30339ea5.css",
-    "static/js/main.924a57e6.js"
+    "static/js/main.0b125748.js"
   ]
 }
