@@ -3,6 +3,7 @@ import './portfolio.css';
 import NetflixIMG from '../../assets/netflix-clone.jpg';
 import SimtIMG from '../../assets/simt.jpg';
 import PortfolioIMG from '../../assets/portfolio-hero.jpg';
+import MovieSearchIMG from '../../assets/movie-search.jpg';
 import Typewriter from 'typewriter-effect';
 
 
@@ -34,14 +35,14 @@ const data = [
     // demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
   },
 
-  // {
-  //   id: 4,
-  //   image: NetflixIMG,
-  //   title: 'Figma dashboard UI kit',
-  //   techStack: `ReactJS, HTML5, CSS3, Firebase, TMDB API`,
-  //   github: 'https://github.com',
-  //   demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
-  // },
+  {
+    id: 4,
+    image: MovieSearchIMG,
+    title: 'Movie Search',
+    techStack: `ReactJS, HTML5, CSS3, OMDb API`,
+    github: 'https://github.com/nhaatn/Movie-Search',
+    demo: 'https://nhaatn.github.io/Movie-Search/'
+  },
 
   // {
   //   id: 5,
