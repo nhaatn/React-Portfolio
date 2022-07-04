@@ -4,6 +4,7 @@ import NetflixIMG from '../../assets/netflix-clone.jpg';
 import SimtIMG from '../../assets/simt.jpg';
 import PortfolioIMG from '../../assets/portfolio-hero.jpg';
 import MovieSearchIMG from '../../assets/movie-search.jpg';
+import CalculatorIMG from '../../assets/calculator.jpg';
 import Typewriter from 'typewriter-effect';
 
 
@@ -44,14 +45,14 @@ const data = [
     demo: 'https://nhaatn.github.io/Movie-Search/'
   },
 
-  // {
-  //   id: 5,
-  //   image: NetflixIMG,
-  //   title: 'Some random title for image 5',
-  //   techStack: `ReactJS, HTML5, CSS3, Firebase, TMDB API`,
-  //   github: 'https://github.com',
-  //   demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
-  // },
+  {
+    id: 5,
+    image: CalculatorIMG,
+    title: 'JavaScript Calculator',
+    techStack: `HTML5, CSS3, JavaScript`,
+    github: 'https://github.com/nhaatn/JS-Calculator',
+    demo: 'https://nhaatn.github.io/JS-Calculator/'
+  },
 
   // {
   //   id: 6,
