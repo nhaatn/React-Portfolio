@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ab85696.css",
+    "main.css": "/static/css/main.4b556e97.css",
     "main.js": "/static/js/main.d71a861e.js",
     "static/media/movie-search.jpg": "/static/media/movie-search.dc2f69f6e9b7f328d324.jpg",
     "static/media/netflix-clone.jpg": "/static/media/netflix-clone.8aaf0b1da5916c08087a.jpg",
@@ -9,11 +9,11 @@
     "static/media/bg-texture.png": "/static/media/bg-texture.8a1abc775dec4ce9e1d1.png",
     "static/media/calculator.jpg": "/static/media/calculator.7fb1d0c52f0cff980dc3.jpg",
     "index.html": "/index.html",
-    "main.2ab85696.css.map": "/static/css/main.2ab85696.css.map",
+    "main.4b556e97.css.map": "/static/css/main.4b556e97.css.map",
     "main.d71a861e.js.map": "/static/js/main.d71a861e.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ab85696.css",
+    "static/css/main.4b556e97.css",
     "static/js/main.d71a861e.js"
   ]
 }
